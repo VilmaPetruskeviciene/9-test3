@@ -1,0 +1,116 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#D4E6FE, #D3E4FE);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #233BF5;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto 10%;
+    gap: 20px;
+    justify-content:space-between;
+}
+
+form label {
+    display: none;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+#firstName,
+#lastName {
+    width: 48%;
+    background-color: #E7E9FE;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#email,
+#phone {
+    width: 48%;
+    background-color: #DCE1FF;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#address {
+    min-height: 40px;
+    height: 70px;
+    max-height: 160px;
+    resize: vertical;
+    background-color: #C7CDFD;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#message {
+    min-height: 60px;
+    height: 100px;
+    max-height: 240px;
+    resize: vertical;
+    background-color: #A5B1FD;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #233BF5;
+}
+
+button {
+    background-color: #233BF5;
+    color: #fff;
+    border: 2px solid #233BF5;
+    border-radius: 26px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    color: #93E5D6;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
